@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+message DeviceInfo {
+    string name = 1;
+    string uuid = 2;
+//     WiFiInfo wifi = 2;
+//     EthInfo eth = 3;
+    uint32 outputs = 4; // number of outputs
+}
+
+// TBD
+// message WiFiInfo {
+//     string ssid = 1;
+//     string password = 2;
+//     int32 rssi = 3;
+//     IP4Info ip4 = 4;
+//     bool enabled = 5;
+// }
+//
+// message EthInfo {
+//     IP4Info ip4 = 1;
+// }
+//
+// message IP4Info {
+//     string address_v4 = 1;
+//     string netmask = 2;
+//     string gateway = 3;
+// }
