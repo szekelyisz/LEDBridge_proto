@@ -8,6 +8,10 @@ message DeviceInfo {
     uint32 outputs = 4; // number of outputs
 }
 
+message DeviceConfig {
+    repeated OutputConfig output_configs = 1;
+}
+
 // TBD
 // message WiFiInfo {
 //     string ssid = 1;

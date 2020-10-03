@@ -1,8 +1,8 @@
 syntax = "proto3";
 
 message OutputConfig {
-    uint32 max_length = 1;
-    repeated SegmentConfig segments = 2;
+    repeated SegmentConfig segments = 1;
+//     uint32 max_length = 2;
 //     uint32 refresh_rate = 3;
 }
 
@@ -11,4 +11,5 @@ message SegmentConfig {
     string name = 2; // for name resolution; optional (absent -> dummy pixels)
     uint32 length = 3; // in pixels
     uint32 cpp = 4; // components/channels/colors per pixel
+//    bytes colormap = 5;
 }
