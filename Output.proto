@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-message OutputConfig {
+message OutputConfigs {
     repeated OutputConfig output_configs = 1;
 }
 
