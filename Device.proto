@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package LEDBridgeProto;
+
 message DeviceInfo {
     string name = 1;
     string uuid = 2;

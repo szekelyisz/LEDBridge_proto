@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package LEDBridgeProto;
+
 message OutputConfigs {
     repeated OutputConfig output_configs = 1;
 }

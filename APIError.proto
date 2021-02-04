@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package LEDBridgeProto;
+
 message APIError {
     uint32 code = 1;
     string message = 2;
